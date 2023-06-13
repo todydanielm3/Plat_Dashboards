@@ -87,5 +87,5 @@ def render_dashboard(n_clicks1, n_clicks2, n_clicks3, n_clicks4, n_clicks_back):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0',debug=True,port=8050)
 
